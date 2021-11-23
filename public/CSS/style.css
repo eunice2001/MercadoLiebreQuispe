@@ -1,0 +1,501 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*HTML*/
+
+.description{
+    display:block;
+    color: rgb(66, 66, 66);
+}
+
+body{
+    background-color:#ebebeb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: black;
+}
+.main-header{
+    background-color:#EAC926;
+    padding:20px;
+}
+.logo{
+    width: 150px;
+}
+.contHeader{
+    display: flex;
+    flex-wrap: wrap;
+}
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+    font-weight: bold;
+}
+.hamburguer-buttom{
+    background-color: #03264C;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 15px;
+    border-radius:8px;
+    text-align: center;
+    font-size: 18px;
+    margin:auto;
+}
+.main-navbar{
+    display: none;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.main-navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-navbar a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+.copyjr{
+    display: none;
+}
+/*.main-article{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+*/
+.products{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+article {
+    box-shadow: 1px -1px 7px 0px rgb(100, 100, 100);
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.main-article{
+    border-top: 1px solid #39B54A;
+
+}
+.main-article i{
+    display:block;
+    font-size: 20px;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #39B54A;
+    background-attachment:#fff;
+    border-radius: 50%;
+    position: relative;
+    right: -80%;
+    top: -18px;
+    color: #39B54A;
+    transition: all 0.5s;
+    transition-duration: 0.8s;
+}
+.main-article i:hover{
+    transform: rotate(-90deg);
+
+}
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+}
+.visit h3{
+   margin: 10px 10px 5px 10px;
+}
+.price{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+.discount{
+    font-size: 16px;
+    color: #39B54A;
+    font-weight: bold;
+    margin: 15px;
+}
+.description{
+    margin: 15px;
+}
+.banner{
+    width: 100%;
+}
+.search{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.search input{
+  border-radius: 10%;
+  border-color: white;
+}
+.search button{
+    border-radius: 5%;
+    border-color:thistle;
+    width: auto;
+    background-color: white;
+}
+.section-footer{
+    margin: 10px;
+}
+.footer-item{
+    background-color:#ebebeb;
+}
+.footer-item i{
+    background-color:  #00438a;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius:8px;
+    text-align: center;
+    font-size: 18px;
+    margin:auto;
+    transition: all 0.2;
+    transition-duration: 0.8ms;
+}
+.footer-item i:hover{
+    background-color:#034692b2;
+    color: white;
+}
+.copy p{
+    font-size: 16px;
+    color: #666;
+    box-shadow: #666;
+}
+
+
+        
+    
+
+
+
+REGISTER
+
+.registro{
+    display: flex;
+    width: 300px;
+    padding: 20px;
+    background-color:rgb(207, 207, 207);
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.article-register{
+    box-shadow: 1px -1px 7px 0px rgb(100, 100, 100);
+    padding: 5px;
+    background-color: #dbdbdb;
+    margin-bottom: 10px;
+}
+
+.register{
+    padding: 15px;
+}
+.form-register{
+    margin: 5% 20% 5%;
+    height: 20%;
+}
+.controlador-form{
+    margin-bottom:15px;
+    font-size:14;
+}
+.controlador-form label{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+.control-input{
+    width: 100%;
+    padding: 8px 8px;
+}
+.button-form{
+    background-color: #39B54A;
+    color: white;
+    border-radius: 3px;
+    border-color: none;
+    padding: 2% 4%;
+    font-size: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.button-form:hover{
+    background-color: #156d21
+}
+
+
+/**LOGIN*/
+.ingreso{
+    max-width: 50%;
+    max-height: 50%;
+    margin: 0 auto 20px;
+}
+.title-login{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.article-login{
+    position: relative;
+    border-radius: 3%;
+    box-shadow: 1px -1px 7px 0px rgb(100, 100, 100);
+    padding: 20px;
+    background-color: #dbdbdb;
+    width: 60%;
+    margin: 15%;
+    margin-bottom: 25%;
+}
+.caja-login{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 3%;
+}
+.caja-login input{
+    width: 100%;
+    height: 100%;
+}
+.bottom-submit{
+    margin-top: 15px;
+    border-radius: 3%;
+}
+.bottom-submit input{
+    position: relative;
+    width: 30%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    left: 35%;
+    border-radius: 3%;
+}
+.submit-send{
+    background-color:#39B54A;
+}
+.submit-send:hover{
+    background-color: rgb(255, 204, 137);
+    background-color: #156d21
+}
+.bottom-submit p{
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (min-width: 320px){
+    .cont-header{
+        width: 100%;
+    }
+    .copyjr{
+        display: none;
+    }
+    .copy-header{
+        font-size: 15px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .visit h3{
+        font-size: 20px;
+    }
+    .search{
+        display: flex;
+        flex-wrap: nowrap;
+        height: 30px;
+    }
+    .products img{
+        width: 100%;
+    }
+    .description{
+    display:none;
+    }
+
+    article{
+    width: 90%;
+    margin: left 10px;
+    }
+    .section-footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-item{
+        box-shadow: none;
+    }
+    .footer-item h3{
+        font-size: 16px;
+        text-align: center;
+    }
+    .footer-item p{
+        padding: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .hamburguer-buttom{
+        width: 10%;
+        margin-top: 10px;
+        padding: 10px 10px;
+
+    }
+    .copy p{
+        font-size: 15px;
+
+    }
+}
+
+
+
+@media only screen and (min-width: 760px){
+    .nav-bar{
+        width:100%;
+    }
+    .nav-bar img{
+        width: 30%;
+    }
+    .main-header .copyjr{
+        display:block;
+    }
+    .copyjr{
+        margin-left:18px;
+        font-size: 14px;
+        text-align: center;
+
+    }
+    .copy-header{
+        display: none;
+    }
+     
+    .hamburguer-buttom{
+        display:none;
+    }
+    .main-navbar{
+        display:flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    .main-navbar ul{
+        display: flex;
+    }
+    .main-navbar li{
+        margin: 0 6px;
+    }
+    .search input{
+        width: 50%;
+    }
+    .products{
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 15px;
+
+    }
+    .visit article{
+        margin-right:8px;
+    }
+    .main-article .description{
+        display: block;
+    }
+    .description{
+        font-size: 14px;
+    }
+    .section-footer{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: nowrap;
+    }
+
+    /*DESKTOP*/
+    
+    @media (min-width: 1200px){
+        .nav-bar, .main-navbar{
+            max-width: 1200px;
+        }
+        .search{
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            margin-left: 40%;
+        }  
+        .submit{
+            position: relative;
+            width:15%
+
+        }
+        .search p{
+            display:inline-block;
+            font-weight:bold;
+        }
+        .copyjr{
+            font-size: 18px;
+
+            
+        }
+        .nav-bar{
+            margin-right: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .main-navbar{
+            margin-top: 40px;
+            margin-left:60px ;
+            font-weight: bold;
+
+        }
+        .main-navbar li{
+            margin: 0 10px;
+        }
+        .main-navbar a{
+            font-size: 19;
+        }
+        .logo-search{
+            width: 40%;
+        }
+        section .banner{
+            height: 25%;
+        }
+        .visit h3{
+            font-size: 30px;
+        }
+        .products{
+            margin: 30px;
+            padding:20px;
+        }
+        .visit article{
+            margin-right: 30px;
+        }
+        .description{
+            font-size: 20px;
+        }
+        .section-footer{
+            margin-bottom:30px;
+            font-size:15px;
+        }
+        .section-footer h3{
+            font-size: 18px;
+        }
+        .copy{
+            margin: 10px;
+        }
+        .copy p{
+            font-size: 20px;
+        }
+    }
+}
+/*border:dotted 2px red; (ayuda  a mostrar donde estoy disponiendo del dispay:flex)
