@@ -173,7 +173,7 @@ h3{
 
 /*REGISTER*/
 
-.registro{
+/*.registro{
     display: flex;
     width: 300px;
     padding: 20px;
@@ -181,13 +181,14 @@ h3{
     justify-content: center;
     margin: auto;
     margin-top: 20px;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;*/
+
 .article-register{
     box-shadow: 1px -1px 7px 0px rgb(100, 100, 100);
     padding: 5px;
-    background-color: #dbdbdb;
+    background-color: #e7e7e7;
     margin-bottom: 10px;
+    border-radius: 2%;
 }
 
 .register{
@@ -226,6 +227,13 @@ h3{
 }
 .button-form:hover{
     background-color: #156d21
+}
+.yatengocuenta{
+    
+    font-size: 16px;
+    margin-top: 5%;
+    text-align: center;
+    font-weight: normal;
 }
 
 
