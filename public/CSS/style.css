@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 /*HTML*/
 
 .description{
@@ -66,12 +67,6 @@ body{
 .copyjr{
     display: none;
 }
-/*.main-article{
-    width: 100%;
-    border-top: 1px solid #ebebeb;
-    padding: 15px;
-}
-*/
 .products{
     margin-left: 30px;
     margin-top: 20px;
@@ -83,7 +78,7 @@ article {
     margin-bottom: 10px;
 }
 .main-article{
-    border-top: 1px solid #39B54A;
+    border-top: 1px solid #c9c9c9;
 
 }
 .main-article i{
@@ -176,13 +171,7 @@ h3{
     box-shadow: #666;
 }
 
-
-        
-    
-
-
-
-REGISTER
+/*REGISTER*/
 
 .registro{
     display: flex;
@@ -241,6 +230,7 @@ REGISTER
 
 
 /**LOGIN*/
+
 .ingreso{
     max-width: 50%;
     max-height: 50%;
@@ -361,7 +351,7 @@ REGISTER
     }
 }
 
-
+/*TABLET*/
 
 @media only screen and (min-width: 760px){
     .nav-bar{
